@@ -17,20 +17,36 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+
+        app:layout_constraintTop_toBottomOf="@+id/gen_task"
         app:layout_constraintVertical_bias="0.331"
         tools:ignore="HardcodedText" />
 
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="390dp"
-        android:layout_height="218dp"
-        android:layout_marginTop="116dp"
-        android:background="#00FFFFFF"
-        android:src="@drawable/button"
+    <Button
+        android:id="@+id/gen_task"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="152dp"
+        android:foregroundGravity="center_horizontal"
+        android:onClick="onButtonClick"
+        android:shadowColor="@color/teal_200"
+        android:text="@string/button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.238"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints,ImageContrastCheck" />
+        tools:ignore="MissingConstraints" />
+    <!--        app:layout_constraintTop_toBottomOf="@+id/gen_task"-->
+<!--    <ImageButton-->
+<!--        android:id="@+id/gen_task"-->
+<!--        android:layout_width="390dp"-->
+<!--        android:layout_height="218dp"-->
+<!--        android:layout_marginTop="116dp"-->
+<!--        android:background="#00FFFFFF"-->
+<!--        android:onClick="onButtonClick"-->
+<!--        android:src="@drawable/button"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.238"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        tools:ignore="MissingConstraints,ImageContrastCheck" />-->
 </androidx.constraintlayout.widget.ConstraintLayout>
